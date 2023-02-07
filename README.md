@@ -4,7 +4,7 @@ This activity has two deliverables, WeatherPy and VacationPy.
 
 WeatherPy is a Python script calling https://openweathermap.org/api to generate and visualize the weather of over 500 cities of varying distances from the equator.
 
-WeatherPy creates a series of scatter plots (shown in the output folder) to showcase the following relationships:
+WeatherPy creates a series of scatter plots (shown in the output_data folder) to showcase the following relationships:
 - Latitude vs. Temperature
 - Latitude vs. Humidity
 - Latitude vs. Cloudiness
@@ -31,4 +31,4 @@ Next, VacationPy narrows down the city data to my ideal weather conditions:
 - Wind speed less than 4.5 m/s
 - Zero cloudiness
 
-Finally, VacationPy use the Geoapify API to find the first hotel located within 10,000 meters of my ideal coordinates and adds the hotel name and the country as additional information in the hover message for each city on the map. The maps created in VacationPy are also saved to the output folder.
+Finally, VacationPy use the Geoapify API to find the first hotel located within 10,000 meters of my ideal coordinates and adds the hotel name and the country as additional information in the hover message for each city on the map. The maps created in VacationPy are also saved to the output_data folder.

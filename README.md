@@ -1,6 +1,6 @@
 Module 6 - Python API Challenge
 
-This activity has two deliverables, WeatherPy and VacationPy.
+This activity has two deliverables, WeatherPy and VacationPy. Each is a notebook producing relavant visualizations. 
 
 WeatherPy is a Python script calling https://openweathermap.org/api to generate and visualize the weather of over 500 cities of varying distances from the equator.
 

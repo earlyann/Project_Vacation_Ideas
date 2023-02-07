@@ -27,7 +27,7 @@ Finally, WeatherPy creates a series of scatter plots specific to the Northern (g
 VacationPy then picks up using the city data that was created in WeatherPy to create a map that displays a point for every city. The size of the marker in the map is relative to the city's humidity.
 
 Next, VacationPy narrows down the city data to my ideal weather conditions:
-- A max temperature lower than 27 degrees but higher than 21
+- A max temperature lower than 28 degrees but higher than 22
 - Wind speed less than 4.5 m/s
 - Zero cloudiness
 

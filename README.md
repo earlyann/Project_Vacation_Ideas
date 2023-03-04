@@ -1,12 +1,12 @@
 # Project: Vacation Ideas
 
-Project: Vacation Ideas is a data analysis project that uses Python APIs to retrieve weather and location data for over 500 cities worldwide and visualize the results in a variety of ways. The project consists of two Jupyter notebooks, Weather_API and Vacation_API, that take a data-driven approach to finding the best travel destinations based on weather conditions and hotel availability.
+Project: Vacation Ideas is a data analysis project that uses Python API requests to retrieve weather and location data for over 500 cities worldwide and visualize the results in a variety of ways. The project consists of two Jupyter notebooks, WeatherAPI and PlacesAPI, that take a data-driven approach to finding the best travel destinations based on weather conditions and hotel availability.
 
 ## Overview 
 
-In Weather_API, we use the openweathermap.org API to retrieve current weather data for a random selection of cities, and visualize the relationships between latitude and temperature, humidity, cloudiness, and wind speed using scatter plots and linear regression analysis. The data analysis is complemented by exploratory data analysis techniques and statistical tests to validate the findings.
+In WeatherAPI, we use the openweathermap.org API to retrieve current weather data for a random selection of cities, and visualize the relationships between latitude and temperature, humidity, cloudiness, and wind speed using scatter plots and linear regression analysis. The data analysis is complemented by exploratory data analysis techniques and statistical tests to validate the findings.
 
-In the Vacation_API notebook, we use the city data obtained in Weather_API to create a heatmap that shows the location and humidity level of each city on a map, as well as a map that highlights the best vacation spots based on your preferred weather conditions. To achieve this, we narrow down the city data based on a set of weather criteria, and use the Geoapify API to find the first hotel located within 10,000 meters of the ideal coordinates and add its name and country as additional information in the hover message for each city on the map.
+In the PlacesAPI notebook, we use the city data obtained in WeatherAPI to create a heatmap that shows the location and humidity level of each city on a map, as well as a map that highlights the best vacation spots based on your preferred weather conditions. To achieve this, we narrow down the city data based on a set of weather criteria, and use the Geoapify API to find the first hotel located within 10,000 meters of the ideal coordinates and add its name and country as additional information in the hover message for each city on the map.
 
 ### Methods Used
 The data analysis in Project Vacation Ideas uses a range of methods, including:
